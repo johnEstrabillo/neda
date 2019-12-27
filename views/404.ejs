@@ -14,26 +14,10 @@
 
 </head>
 <body>
-	<%include partials/user-navbar.ejs%>
+	
 
 	<div id="vue-app">
-		<div class="col-sm-10 col-sm-offset-1">
-
-			<div class="myThumbnail col-sm-12 eCommTrack" v-on:click="eCommTrack">
-				<p class="h3 thumbnail-title">E-CommTrack System</p>
-				<hr>	
-
-			</div>
-
-			<div class="myThumbnail col-sm-12">
-						
-			</div>
-
-			<div class="myThumbnail col-sm-12">
-						
-			</div>
-
-		</div>
+		<h1>404 NOT FOUND</h1>
 	</div>
 
 </body>
@@ -48,7 +32,7 @@
 		},
 		methods:{
 			eCommTrack: function(){
-				window.location.href = "/neda/e_communication_tracking_system";
+				window.location.href = "/e_communication_tracking_system";
 			}
 		},
 		mounted(){
@@ -63,21 +47,10 @@
 	
 	}
 
-	.myThumbnail{
-		border:1px solid rgb(30,30,30);
-		padding:5px;
-		height:200px;
-		margin-bottom:20px;
-		cursor:pointer;
-		
-	}
-
-	.thumbnail-title{
-		
-	}
-
-	.eCommTrack{
-		background-color:#ccc;
+	h1{
+		font-family:tahoma;
+		text-align:center;
+		margin:10px;
 	}
 
 	
